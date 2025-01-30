@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        tag: ['SNAPSHOT']
+        tag: ['24.10-SNAPSHOT r28381-ad98c322cc']
         build_env:
           - pkgarch: aarch64_cortex-a53
             target: mediatek
